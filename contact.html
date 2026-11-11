@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Olukunle Aduragbemi Joshua</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Joshua <span>Olukunle</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-btn" id="theme-toggle" aria-label="Toggle theme">◐</button>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1 class="section-title">Contact</h1>
+    <p class="section-subtitle">Feel free to reach out. I will respond as soon as I can.</p>
+
+    <div class="contact-wrapper">
+      <div class="form-success" id="form-success"></div>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name">
+          <div class="error-msg"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com">
+          <div class="error-msg"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Digits only">
+          <div class="error-msg"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+          <div class="error-msg"></div>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+      </form>
+
+      <div style="margin-top: 2rem; text-align: center; color: var(--text-muted); font-size: 0.92rem;">
+        <p><strong>Email:</strong> Gbemilekejoshua81@gmail.com</p>
+        <p style="margin-top: 0.4rem;"><strong>Phone:</strong> 08118133892</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Olukunle Aduragbemi Joshua. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Planner – Olukunle Aduragbemi Joshua</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Joshua <span>Olukunle</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html" class="active">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-btn" id="theme-toggle" aria-label="Toggle theme">◐</button>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Menu">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1 class="section-title">Academic Planner</h1>
+    <p class="section-subtitle">Keep track of study tasks, assignments, and personal goals.</p>
+
+    <div class="planner-wrapper">
+      <form class="planner-form" id="planner-form">
+        <input type="text" id="task-input" placeholder="Add a new task..." autocomplete="off">
+        <button type="submit" class="btn btn-primary">Add Task</button>
+      </form>
+
+      <ul class="task-list" id="task-list"></ul>
+      <div class="empty-state" id="empty-state">No tasks yet. Add one above to get started.</div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Olukunle Aduragbemi Joshua. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
